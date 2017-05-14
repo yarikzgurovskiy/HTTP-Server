@@ -7,7 +7,7 @@
 	"args": [
 		"--tab",
 		"-e",
-		"/bin/bash -c './build/http_server; exec /bin/bash -i'"
+		"/bin/bash -c 'valgrind --leak-check=yes ./build/http_server; exec /bin/bash -i'"
 	],
 	"showOutput": "always"
 }

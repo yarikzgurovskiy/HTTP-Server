@@ -8,6 +8,11 @@
 
 using namespace std;
 
+/**
+    @brief subsidiary function to read file
+    @param filePath - path to file that will be read
+    @return string that represented content of file
+*/
 string readFile(string filePath);
 
 string convertServerInfo(void){
