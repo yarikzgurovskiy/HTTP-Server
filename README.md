@@ -28,7 +28,7 @@
 * `/file/data` - у відповідь клієнту відправити JSON-об'єкт із інформацією про кількість літер у верхньому регістрі та кількість літер у нижньому регістрі, які містить файл (файл `data.txt`).
 
 ### Modules:
-..* place.h - Data about favorite place
-..* response.h - Wrapper for server response 
-..* request.h - Wrapper for client request
-..* jsonconverter.h - Module to convert data to Json string
+* place.h - Data about favorite place
+* response.h - Wrapper for server response 
+* request.h - Wrapper for client request
+* jsonconverter.h - Module to convert data to Json string
