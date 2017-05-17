@@ -4,7 +4,7 @@
 Response::Response(){ _message = ""; }
 Response::~Response(){};
 Response::Response(Request * request, vector<Place*> places){
-    string file = "/home/yaroslav/projects/progbase2/labs/lab8/data/data.txt";
+    string file = "/home/yaroslav/projects/GitHub/HTTP-Server/data/data.txt";
     string headers = 
         "Server: Cowboy\r\n"
         "Connection: close\r\n\r\n";
